@@ -4,7 +4,7 @@
 
 #include "Client.h"
 
-// Уточнить про множественное наследование в этом случае
+
 class MqttClient : mosqpp::mosquittopp , public Client
 {
 	const char* host;
